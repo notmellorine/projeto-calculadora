@@ -1,0 +1,90 @@
+.header {
+    display: flex;
+    flex-flow: row wrap;
+    align-content: end;
+    background-color: #242a4d;
+    width: 370px;
+    height: 145px;
+}
+#visor {
+    background-color: #333a58;
+    width: 370px;
+    height: 135px;
+    margin: 2px;
+    left: 10px;
+    position: relative;
+    top: 6px;
+    left: 0px;
+}
+.bg {
+    width: 370px;
+    height: 465px;
+    background-color: #242a4d;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-content: flex-end;
+}
+.botoes {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    width: 90px;
+    height: 90px;
+    margin: 1px;
+    background-color: #333a58;
+}
+.corClara {
+    background-color: #464d6a;
+}
+.igual{
+    background-color: #ff3764;
+    width: 90px;
+    height: 182px;
+}
+.coluna1 {
+    display: flex;
+    flex-flow: column;
+}
+.coluna2 {
+    display: flex;
+    flex-flow: column;
+}
+.coluna3 {
+    display: flex;
+    flex-flow: column;
+}
+.coluna4 {
+    display: flex;
+    flex-flow: column;
+}
+.texto{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    text-align: center 
+}
+.texto1 {
+    color: #ff3764;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    text-align: center;
+}
+.textoVisor {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 80px;
+    text-align: center;
+    position: relative;
+    left: 115px;
+    bottom: 40px; 
+}
+.corClara:hover {
+    background-color: #696f8b;
+}
+.corEscura:hover {
+    background-color: #696f8b;
+}
+.igual:hover {
+    background-color: #f49db0;
+}
