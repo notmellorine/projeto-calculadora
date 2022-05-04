@@ -88,3 +88,12 @@
 .igual:hover {
     background-color: #f49db0;
 }
+.igual:active {
+    background-color: #f5b6c4;
+}
+.corClara:active {
+    background-color: #a1a5b4;
+}
+.corEscura:active {
+    background-color: #a1a5b4;
+}
